@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  namespace: myntra
+  labels:
+    type: deployment
+spec:
+  replicas: 1
+
